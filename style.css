@@ -1,0 +1,158 @@
+body{
+    background-color: lightpink;
+    background-image: url(media/pinkwall.jpg);
+}
+
+h1{ 
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    
+}
+
+h3{
+    font-family: cursive;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    border: solid 1px black;
+    font-family: 'Sigmar One', cursive;
+}
+
+li:hover{
+    background-color: peachpuff;
+}
+
+li a{
+    color: black;
+}
+
+.food a{
+    color: white;
+}
+
+.places a{
+    color: black;
+}
+
+#music a{
+    color: white;
+}
+
+#fashion a{
+    color: black;
+}
+
+.food{
+    border-radius: 25px;
+    background-image: url(media/oranges.jpg);
+    background-position: center;
+    padding: 20px; 
+    width: 250px;
+    height: 200px; 
+    background-size: cover;
+    background-size: 400px;
+    font-family: 'Kaushan Script', cursive;
+    color: azure;
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.places{
+    border-radius: 25px;
+    background-image: url(media/travel.jpg);
+    background-position: center;
+    padding: 20px; 
+    width: 250px;
+    height: 200px; 
+    background-size: cover;
+    background-size: 400px;
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#music{
+    border-radius: 25px;
+    background-image: url(media/vinyl.jpg);
+    background-position: center;
+    padding: 20px; 
+    width: 250px;
+    height: 200px; 
+    background-size: cover;
+    background-size: 400px;
+    font-family: 'Kaushan Script', cursive;
+    color: azure;
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fashion{
+    border-radius: 25px;
+    background-image: url(media/fashion.jpg);
+    background-position: center;
+    padding: 20px; 
+    width: 250px;
+    height: 200px; 
+    background-size: cover;
+    background-size: 400px;
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 a:hover{
+   color: lightpink;
+}
+
+#music a:hover{
+    color: lightpink;
+}
+
+#fashion a:hover{
+    color: lightpink;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;   
+}
+
+p{
+    font-family: 'Sigmar One', cursive; 
+    text-align: center;
+    color: peachpuff;
+}
+
+.paris{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%)
+}
+
+#love{
+    border: solid 10px black;
+}
+
+#peace{
+   border: solid 10px black; 
+}
+
+#joy{
+    border: solid 10px black;
+}
